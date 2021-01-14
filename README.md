@@ -11,7 +11,7 @@
  
 
 ### `git config –global user.name` “github kullanıcı adımızı yazıyoruz.”  :buradaki global anlamda
-### yapılandırma yaptığımızı gösterir.
+## yapılandırma yaptığımızı gösterir.
 ### `git config –global user.email ` “email adresinizi yazıyoruz”  mail adresimizi tanımlıyoruz. Bu şekilde ayarları bitirmiş oluyoruz.
 
 
@@ -22,7 +22,7 @@
 ### `Clear:` Terminali temizler. Yada kısayol tuşu CTRL+L tuşu ile temizleyebiliriz.
 ### `Touch :` touch  dosya.txt (dediğimizde bulunduğumuz klasörün içine dosya.txt adında dosya oluştururuz.)
 ### `mkdir dosyaadı`  bu şekilde bulunduğumuz dizine dosya oluştururuz.
-### vi dosyaadı.uzantısı : yazıp o dosyayı terminal üzerinden açabiliriz.
+### `vi dosyaadı.uzantısı :` yazıp o dosyayı terminal üzerinden açabiliriz.
 # Terminalden dosya içine bir şey yazmak için;
 # 1-Önce i tuşuna basınıyoruz be yazmak istediklerimizi yazıyoruz.
 # 2-Daha sonra önce “Esc” Tuşuna basıp “:wq” bır w write yani yazmak kelimesinden geliyor q da quit yani çıkmakdan geliyor.
