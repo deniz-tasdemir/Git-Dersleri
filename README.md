@@ -50,7 +50,7 @@
 ## Git Dersleri – 9 – Diff & Değişiklikler
 # git status : Dediğimizde ; Aşağıdaki örnekte dosyanın içinde bir değişiklik olduğunu söylüyor. Modified lesson-4.html Olarak hangi dosyada değişiklik yapılmışsa onu belirtiyor.
 ### `Git diff : `Dosyanın içindeki değişiklikleri satır satır  listeler.
-###`git add .  :`Diyerek git’in geçiş deposuna gönderiyoruz.
+### `git add .  :`Diyerek git’in geçiş deposuna gönderiyoruz.
 ### `git commit –m “ekleme yapıldı” :`Geçiş deposundan, git deposuna eklemek  için  bu komut kullanılır.
 ### `git diff  dosyaadı.uzantısı  :` yazdığımızda dosyanın içindeki değişiklikleri  görebiliriz. Kırmızı ile yazılanlar çıkarılanlardır.Yeşil ile yazılanlar eklenenlerdir.
 ### `Eğer  git add.`: Yazıp daha sonra git  diff yazarsanız  hiçbir değişiklik göstermez.Çünkü 
