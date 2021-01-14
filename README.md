@@ -16,24 +16,21 @@ git config –global user.email “email adresiniZi yazıyoruz”   diyerek mail
 
 
 ### TERMİNAL KOMUTLARI
-### `pwd `Terminal üzerinde bulunduğumuz  tam adresini verir.
-# pwd : Terminal üzerinde bulunduğumuz  tam adresini verir.
-# ls : Mevcut bulunduğumuz dosyaları ve dizileri listeler.
-# Ls -a : Mevcut bulunduğumuz gizli dosyaları ve dizileri listeler.
-# cd : Dizin değiştirme k için kullanılır örnek cd desktop gibi.. Normal Windows den Myproject diye bir klasör oluşturup,  içine cd komutu ile girebiliriz.
-# cd.. :Bu komut ile bir önceki dizine geri gelebiliriz.
-# Clear: Terminali temizler. Yada kısayol tuşu CTRL+L tuşu ile temizleyebiliriz.
-# Touch : touch  dosya.txt (dediğimizde bulunduğumuz klasörün içine dosya.txt adında dosya oluştururuz.)
-# mkdir dosyaadı  bu şekilde bulunduğumuz dizine dosya oluştururuz.
+### `pwd: `Terminal üzerinde bulunduğumuz  tam adresini verir.
+### `ls:`Mevcut bulunduğumuz dosyaları ve dizileri listeler.### Ls -a : Mevcut bulunduğumuz gizli dosyaları ve dizileri listeler.###  cd : Dizin değiştirme k için kullanılır örnek cd desktop gibi.. Normal Windows den Myproject diye bir klasör oluşturup,  içine cd komutu ile girebiliriz.
+### `cd.. :`Bu komut ile bir önceki dizine geri gelebiliriz.
+### `Clear:` Terminali temizler. Yada kısayol tuşu CTRL+L tuşu ile temizleyebiliriz.
+### `Touch :` touch  dosya.txt (dediğimizde bulunduğumuz klasörün içine dosya.txt adında dosya oluştururuz.)
+### `mkdir dosyaadı`  bu şekilde bulunduğumuz dizine dosya oluştururuz.
 vi dosyaadı.uzantısı : yazıp o dosyayı terminal üzerinden açabiliriz.
-## Terminalden dosya içine bir şey yazmak için;
-# 1-	Önce i tuşuna basınıyoruz be yazmak istediklerimizi yazıyoruz.
-# 2-	Daha sonra önce “Esc” Tuşuna basıp “:wq” bır w write yani yazmak kelimesinden geliyor q da quit yani çıkmakdan geliyor.
-# 3-	Subl dosya.uzantısı yazarakda o dosya içindeki yaptığımız değişiklikleri görebiliriz.
-# git log :  Versiyon değişikliklerini detaylı bir şekilde görebiliriz.
+# Terminalden dosya içine bir şey yazmak için;
+# 1-Önce i tuşuna basınıyoruz be yazmak istediklerimizi yazıyoruz.
+# 2-Daha sonra önce “Esc” Tuşuna basıp “:wq” bır w write yani yazmak kelimesinden geliyor q da quit yani çıkmakdan geliyor.
+# 3-Subl dosya.uzantısı yazarakda o dosya içindeki yaptığımız değişiklikleri görebiliriz.
+# git log : Versiyon değişikliklerini detaylı bir şekilde görebiliriz.
 # git log –oneline : versiyon değişikliklerini kısa özet olarak gösterir.
-rm dosyaadı.uzantısı  : (Dosya silme)yazarsak o klasör içindeki dosyayı silmiş oluruz.
-# rm –r klasöradı  : (Klasör silme) Klasör silmek için o klasör dizinin içinde olmamız gerekir.Yoksa o klasörü silemeyiz.
+### `rm dosyaadı.uzantısı:` (Dosya silme)yazarsak o klasör içindeki dosyayı silmiş oluruz.
+### `rm –r klasöradı`  : (Klasör silme) Klasör silmek için o klasör dizinin içinde olmamız gerekir.Yoksa o klasörü silemeyiz.
 
 ### Git Dersleri – 6 – Commit & Log
 # 1-	git init : cd ile proje dosyasına  gelip, git init yaparakgit projesi haline getirip, proje dosyalarını yükleriz.
