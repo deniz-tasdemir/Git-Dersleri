@@ -16,7 +16,7 @@ git config –global user.email “email adresiniZi yazıyoruz”   diyerek mail
 
 
 ### TERMİNAL KOMUTLARI
-
+### `pwd `Terminal üzerinde bulunduğumuz  tam adresini verir.
 # pwd : Terminal üzerinde bulunduğumuz  tam adresini verir.
 # ls : Mevcut bulunduğumuz dosyaları ve dizileri listeler.
 # Ls -a : Mevcut bulunduğumuz gizli dosyaları ve dizileri listeler.
@@ -39,7 +39,7 @@ rm dosyaadı.uzantısı  : (Dosya silme)yazarsak o klasör içindeki dosyayı si
 # 1-	git init : cd ile proje dosyasına  gelip, git init yaparakgit projesi haline getirip, proje dosyalarını yükleriz.
 # 2-	git add . add eklemek anlamında . nokta ise şuanki bulunduğumuz dizin demek  bu kod çalıştığı zaman git tüm dosyaları deposuna ekler.Fakat bu komut tek başına yeterli değildir. Aslında bu dosyalar şu anda git deposunda değil, git geçiş deposundadır.
 # 3-	git commit –m “ilk commit” : Geçiş deposundan, git deposuna eklemek  için bu komut kulanılır.
-##NOT: Eğer geçiş bölgesindeki bir dosyanın içinde değişiklik yaptıysak tekrar
+## NOT: Eğer geçiş bölgesindeki bir dosyanın içinde değişiklik yaptıysak tekrar
 O dosyayı git add dosya.txt  yani dosya adı ve uzantısını yazarak tekrar
 geçiş bölgesine göndermeliyiz.
 
@@ -50,5 +50,5 @@ git add dosyaismi.html:  Yazıp direk dosya eklebiliriz. (git add . şeklinde ya
 # 4-	git commit –m “ikinci dosya eklendi.” : Geçiş deposundan, git deposuna eklemek  için bu komut kulanılır. Git Dersleri – 8 – Git İş Akışı
  
 
-# Git Dersleri – 9 – Diff & Değişiklikler
-git status : Dediğimizde ; Aşağıdaki örnekte dosyanın içinde bir değişiklik olduğunu söylüyor. Modified lesson-4.html Olarak hangi dosyada değişiklik yapılmışsa onu belirtiyor.
+## Git Dersleri – 9 – Diff & Değişiklikler
+# git status : Dediğimizde ; Aşağıdaki örnekte dosyanın içinde bir değişiklik olduğunu söylüyor. Modified lesson-4.html Olarak hangi dosyada değişiklik yapılmışsa onu belirtiyor.
