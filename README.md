@@ -12,7 +12,7 @@
 
 ### `git config –global user.name` “github kullanıcı adımızı yazıyoruz.”  :buradaki global anlamda
 ### yapılandırma yaptığımızı gösterir.
-### `git config –global user.email ` “email adresiniZi yazıyoruz”   diyerek mail adresimizi tanımlıyoruz. Bu şekilde ayarları bitirmiş oluyoruz.
+### `git config –global user.email ` “email adresinizi yazıyoruz”  mail adresimizi tanımlıyoruz. Bu şekilde ayarları bitirmiş oluyoruz.
 
 
 ### TERMİNAL KOMUTLARI
@@ -41,11 +41,19 @@
 ### geçiş bölgesine göndermeliyiz.
 
 ### GİT STATUS
-# git status: Projenizde herhangi değişiklik olup olmadığını gösterir .Eğer Herhangi bir değişiklik yok ise nothing to commit yani kayıt edilecek herhangi bir şey yok demek.
-### Eğer var ise kırmızı renkte dosyanın adını gösterir.
-### git add dosyaismi.html:  Yazıp direk dosya eklebiliriz. (git add . şeklinde yazsaydık tüm dosyaları ekleyecekti. Daha önce yaptığımız için böyle birşeye ihtiyaç yok.)
-# 4-	git commit –m “ikinci dosya eklendi.” : Geçiş deposundan, git deposuna eklemek  için bu komut kulanılır. Git Dersleri – 8 – Git İş Akışı
- 
+# git status: Projenizde herhangi değişiklik olup olmadığını gösterir .Eğer Herhangi bir değişiklik yok ise 
+# nothing to commit yani kayıt edilecek herhangi bir şey yok demek.
+# Eğer var ise kırmızı renkte dosyanın adını gösterir.
+### `git add dosyaismi.html:  Yazıp direk dosya eklebiliriz. (git add . şeklinde yazsaydık tüm dosyaları ekleyecekti. Daha önce yaptığımız için böyle birşeye ihtiyaç yok.)
+# 4-	git commit –m “ikinci dosya eklendi.” : Geçiş deposundan, git deposuna eklemek  için bu komut kulanılır. Git Dersleri – 8 – Git İş Akışı 
 
 ## Git Dersleri – 9 – Diff & Değişiklikler
 # git status : Dediğimizde ; Aşağıdaki örnekte dosyanın içinde bir değişiklik olduğunu söylüyor. Modified lesson-4.html Olarak hangi dosyada değişiklik yapılmışsa onu belirtiyor.
+### `Git diff : `Dosyanın içindeki değişiklikleri satır satır  listeler.
+###`git add .  :`Diyerek git’in geçiş deposuna gönderiyoruz.
+### `git commit –m “ekleme yapıldı” :`Geçiş deposundan, git deposuna eklemek  için  bu komut kullanılır.
+### `git diff  dosyaadı.uzantısı  :` yazdığımızda dosyanın içindeki değişiklikleri  görebiliriz. Kırmızı ile yazılanlar çıkarılanlardır.Yeşil ile yazılanlar eklenenlerdir.
+### `Eğer  git add.`: Yazıp daha sonra git  diff yazarsanız  hiçbir değişiklik göstermez.Çünkü 
+### Dosyaları git add . İle geçiş  dosyasına attığımız için herhangi bir  farklılık göstermiyor.
+
+
