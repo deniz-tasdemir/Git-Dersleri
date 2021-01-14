@@ -4,15 +4,15 @@
  ### GİT PROJESİ OLUŞTURMA
 
 ### GİT AYARLAR
-git –version  : gitin versionu öğrenmiş oluruz.
+### `git –version  :`gitin versionu öğrenmiş oluruz.
 
  
-git –config list : ile yapılandırılımış ayarlarmızı görebiliriz.
+### ;`git –config list :`ile yapılandırılımış ayarlarmızı görebiliriz.
  
 
-git config –global user.name “deniz-tasdemir”  :buradaki global anlamda
-yapılandırma yaptığımızı gösterir.
-git config –global user.email “email adresiniZi yazıyoruz”   diyerek mail adresimizi tanımlıyoruz. Bu şekilde ayarları bitirmiş oluyoruz.
+### `git config –global user.name` “github kullanıcı adımızı yazıyoruz.”  :buradaki global anlamda
+### yapılandırma yaptığımızı gösterir.
+### `git config –global user.email ` “email adresiniZi yazıyoruz”   diyerek mail adresimizi tanımlıyoruz. Bu şekilde ayarları bitirmiş oluyoruz.
 
 
 ### TERMİNAL KOMUTLARI
@@ -22,7 +22,7 @@ git config –global user.email “email adresiniZi yazıyoruz”   diyerek mail
 ### `Clear:` Terminali temizler. Yada kısayol tuşu CTRL+L tuşu ile temizleyebiliriz.
 ### `Touch :` touch  dosya.txt (dediğimizde bulunduğumuz klasörün içine dosya.txt adında dosya oluştururuz.)
 ### `mkdir dosyaadı`  bu şekilde bulunduğumuz dizine dosya oluştururuz.
-vi dosyaadı.uzantısı : yazıp o dosyayı terminal üzerinden açabiliriz.
+### vi dosyaadı.uzantısı : yazıp o dosyayı terminal üzerinden açabiliriz.
 # Terminalden dosya içine bir şey yazmak için;
 # 1-Önce i tuşuna basınıyoruz be yazmak istediklerimizi yazıyoruz.
 # 2-Daha sonra önce “Esc” Tuşuna basıp “:wq” bır w write yani yazmak kelimesinden geliyor q da quit yani çıkmakdan geliyor.
@@ -37,13 +37,13 @@ vi dosyaadı.uzantısı : yazıp o dosyayı terminal üzerinden açabiliriz.
 # 2-	git add . add eklemek anlamında . nokta ise şuanki bulunduğumuz dizin demek  bu kod çalıştığı zaman git tüm dosyaları deposuna ekler.Fakat bu komut tek başına yeterli değildir. Aslında bu dosyalar şu anda git deposunda değil, git geçiş deposundadır.
 # 3-	git commit –m “ilk commit” : Geçiş deposundan, git deposuna eklemek  için bu komut kulanılır.
 ## NOT: Eğer geçiş bölgesindeki bir dosyanın içinde değişiklik yaptıysak tekrar
-O dosyayı git add dosya.txt  yani dosya adı ve uzantısını yazarak tekrar
-geçiş bölgesine göndermeliyiz.
+### O dosyayı git add dosya.txt  yani dosya adı ve uzantısını yazarak tekrar
+### geçiş bölgesine göndermeliyiz.
 
 ### GİT STATUS
 # git status: Projenizde herhangi değişiklik olup olmadığını gösterir .Eğer Herhangi bir değişiklik yok ise nothing to commit yani kayıt edilecek herhangi bir şey yok demek.
-Eğer var ise kırmızı renkte dosyanın adını gösterir.
-git add dosyaismi.html:  Yazıp direk dosya eklebiliriz. (git add . şeklinde yazsaydık tüm dosyaları ekleyecekti. Daha önce yaptığımız için böyle birşeye ihtiyaç yok.)
+### Eğer var ise kırmızı renkte dosyanın adını gösterir.
+### git add dosyaismi.html:  Yazıp direk dosya eklebiliriz. (git add . şeklinde yazsaydık tüm dosyaları ekleyecekti. Daha önce yaptığımız için böyle birşeye ihtiyaç yok.)
 # 4-	git commit –m “ikinci dosya eklendi.” : Geçiş deposundan, git deposuna eklemek  için bu komut kulanılır. Git Dersleri – 8 – Git İş Akışı
  
 
