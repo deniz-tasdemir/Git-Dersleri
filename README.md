@@ -37,7 +37,7 @@
 # 2-	git add . add eklemek anlamında . nokta ise şuanki bulunduğumuz dizin demek  bu kod çalıştığı zaman git tüm dosyaları deposuna ekler.Fakat bu komut tek başına yeterli değildir. Aslında bu dosyalar şu anda git deposunda değil, git geçiş deposundadır.
 # 3-	git commit –m “ilk commit” : Geçiş deposundan, git deposuna eklemek  için bu komut kulanılır.
 ## NOT: Eğer geçiş bölgesindeki bir dosyanın içinde değişiklik yaptıysak tekrar
-### O dosyayı git add dosya.txt  yani dosya adı ve uzantısını yazarak tekrar
+## O dosyayı git add dosya.txt  yani dosya adı ve uzantısını yazarak tekrar
 ### geçiş bölgesine göndermeliyiz.
 
 ### GİT STATUS
