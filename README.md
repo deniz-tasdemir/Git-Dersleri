@@ -17,7 +17,7 @@ Versiyon kontrol sistemi, kod temeline yapılan değişikliklerin izini sürmeye
  
 
 ### `git config –global user.name` “github kullanıcı adımızı yazıyoruz.”  :buradaki global anlamda
-## yapılandırma yaptığımızı gösterir.
+yapılandırma yaptığımızı gösterir.
 ### `git config –global user.email ` “email adresinizi yazıyoruz”  mail adresimizi tanımlıyoruz. Bu şekilde ayarları bitirmiş oluyoruz.
 
 
@@ -43,8 +43,8 @@ git log –oneline : versiyon değişikliklerini kısa özet olarak gösterir.
 2-	git add . add eklemek anlamında . nokta ise şuanki bulunduğumuz dizin demek  bu kod çalıştığı zaman git tüm dosyaları deposuna ekler.Fakat bu komut tek başına yeterli değildir. Aslında bu dosyalar şu anda git deposunda değil, git geçiş deposundadır.
 3-	git commit –m “ilk commit” : Geçiş deposundan, git deposuna eklemek  için bu komut kulanılır.
 ## NOT: Eğer geçiş bölgesindeki bir dosyanın içinde değişiklik yaptıysak tekrar
-## O dosyayı git add dosya.txt  yani dosya adı ve uzantısını yazarak tekrar
-### geçiş bölgesine göndermeliyiz.
+O dosyayı git add dosya.txt  yani dosya adı ve uzantısını yazarak tekrar
+geçiş bölgesine göndermeliyiz.
 
 ### GİT STATUS
  git status: Projenizde herhangi değişiklik olup olmadığını gösterir .Eğer Herhangi bir değişiklik yok ise 
