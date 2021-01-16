@@ -1,5 +1,8 @@
 # Github-Egitimi-Git-Dersleri
-## GİT NOTLARIM
+### GIT’in Hikayesi
+Linus Torvalds, 2002 yılında, kernel’i geliştirirken BitKeeper adlı revizyon kontrol sistemini kullanıyor. 2005 yılında Linux kernel geliştirici topluluğu ile BitKeeper arasında bir sıkıntı oluyor. BitKeeper’ın ücretsiz kullanım lisansı iptal oluyor ve Linus’un sigorta bu noktada atıyor.
+
+İzlediğim Git Under the Hood eğitiminde Jeffrey Haemer, Linus’un GIT’i geliştirmeye bir pazartesi başlayıp, çarşamba gününden itibaren GIT’i GIT ile versiyonlamaya başladığını söyledi. Bu kadar hızlı geliştirmesinin sebebi olarak da zaten çok iyi bildiği kernel’i kopyalaması olduğunu söyledi.
 
  ### GİT PROJESİ OLUŞTURMA
 
