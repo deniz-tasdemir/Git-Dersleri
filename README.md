@@ -66,4 +66,28 @@ Eğer var ise kırmızı renkte dosyanın adını gösterir.
 ### `Eğer  git add.`: Yazıp daha sonra git  diff yazarsanız  hiçbir değişiklik göstermez.Çünkü 
 ### Dosyaları git add . İle geçiş  dosyasına attığımız için herhangi bir  farklılık göstermiyor.
 
+### GİT BRANCH OLUŞTURMA
+### `it branch ne işe yarar:` Proje üzerinde dal oluşturulmak anlamında. Bu dalı bir proje üzerinde bir değişiklik yaparak, yaptığımız değişikliklerin işe yarar olup olmadığını kontrol ederiz ve daha sonra da yaptığımız değişikleri master branch ile birleştiririz. Yada iki farklı yazılımcı front-end ve Backend gibi iki farklı yazılımcının çalışıyorsa projenin backend ve font-end için iki farklı dal oluşturulur.Font-end ve backend kişi istediği değişiklikleri yaptıktan sonra master branch ile birleştirir. git status :dediğimizde hangi branch de olduğumuzu görürüz.Örnek master branch deyiz.
+
+### `git branch dal-1: `  dediğimizde dal-1 isimli bir branch oluşturmuş oluruz.(Klasörün içinde en az bir dosya olmalı.Dosya olmadan bu komut çalışmaz)
+
+### `git branch –a: ` oluşturulan branchleri listemek için kullanılır.
+
+### `Örnek: ` master ve dal-1 adında iki branch miz olduğu görülüyor.Master branch yeşil Durumda bu şuanda master branch üstünde olduğumuzu gösteriyor.
+
+### `git checkout dal-1 :` bu komutla gitmek istediğimiz branch gidiyoruz.
+
+### ` touch dal-1.js :` yazarak dal-1 içinde bir dosya oluşturuyoruz. Ve sırasıyla geçiş bölgesi ve git deposuna gönderiyoruz. Sonra da  git log ile inceliyoruz.Dal-1 de (HEAD) kısm bizim şuanda hangi branchde olduğumuzu gösteriyor. İncelediğimizde dal-1 ve master branch lerinde yaptığımız değişlikleri görebiliyoruz.
+
+### `git checkout master :` dediğimizde master branch ine gitmiş oluruz. sadece o klasörün içinde master branch ine ait dosyalar gözükür. dal-1 branch içindeki dosyalarımız gözükmez.
+### Hızlı Branch oluşturulma:
+### `git checkout –b dal-2 :` dediğimizde hem branch oluşturmuş hemde dal-2 branch e gitmiş oluyoruz.
+### ` Örnek :` Aşağıdaki örnekte hem dal-2 adında branch oluşturduk hemde dal-2 branch ine geçi yapmış olduk.
+
+### Branch silme :
+### `git branch –d dal-1 :` dal 1 isimli dosyayı silmek istediğimizi söyledik fakat aşağıdaki hatayı aldık.Branchler birleştirilmediği için aşağıdaki hatayı aldık. Böyle durumlarda git branch –D dal-1 yazıyoruz. Yani küçük d yerine büyük D kullanıyoruz.
+
+ 
+
+
 
