@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-
 ### GIT’in Hikayesi
 Linus Torvalds, 2002 yılında, kernel’i geliştirirken BitKeeper adlı revizyon kontrol sistemini kullanıyor. 2005 yılında Linux kernel geliştirici topluluğu ile BitKeeper arasında bir sıkıntı oluyor. BitKeeper’ın ücretsiz kullanım lisansı iptal oluyor ve Linus’un sigorta bu noktada atıyor.
 
@@ -13,7 +10,7 @@ Neticede GIT aslında bir veritabanıdır. Tanımlandığı dizin altında çal�
 
 
 ## GİT NOTLARIM
-=======
+
 ### GİT DERLERİ
 ### Git’in Hikayesi
  İlk sürümü Linux çekirdeği'nin geliştirilmesinde kullanılmak üzere 2005 yılında bizzat Linus Torvalds tarafından tasarlanıp geliştirilmiş, son Eclipse kullanıcı topluluğu anketi verilerine göre 2013 yılı itibarıyla %30 pazar payına ulaşmıştır.
@@ -23,8 +20,6 @@ Linus Torvalds, 2002 yılında, kernel’i geliştirirken BitKeeper adlı revizy
  Geliştiriciler yeni bir proje yaptıklarında, kodlarına daima güncelleme yaparak devam ederler. Projelerini yayınladıklarından sonra bile versiyon güncelleme, hata düzeltme, yeni özellikler ekleme gibi işlemleri yapmaları gerekmektedir.
 
 Versiyon kontrol sistemi, kod temeline yapılan değişikliklerin izini sürmeye yardımcı olur. Dahası, değişiklikleri kimin yaptığının kaydını tutar ve silinmiş veya değiştirilmiş kodları geri getirebilir.Şimdi diyeceksiniz ki bunun  yerine klasörü kopyalarak yedek alsaydık bu kadar şeyle neden uğraşıyoruz. Örneğin bir projeye başladınız ve bu projeye birşey ekleyeceksiniz ve bu kodların çalışıp çalışmadığından emin değilsiniz, işte git burada devreye giriyor. git de yeni bir branch oluşturup test edip, daha sonra bu branchleri birleştirebilirsiniz. Yada bir den fazla yazılımcı branch oluşturarak aynı projede çalışıp sonra ana branch olan masterde bu branchleri birleştirebilir. Ayrıca siz her branch oluşturduğunuzda o dosyanın tamamını kopyalamış olmazsınız, sadece değişiklik yaptığınız satır kadar bilgisayarında yer kaplar. Sürekli aynı klasörü kopyaladığınızda değişik yapmadığınız dosya ve klasörü de boşuna kopyalayarak hem yer hemde zamandan kaybınız olur.
->>>>>>> githubv1
-
 
 ### GİT AYARLAR
 ### `git –version  :`gitin versionu öğrenmiş oluruz.
