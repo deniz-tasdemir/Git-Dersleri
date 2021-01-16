@@ -38,13 +38,12 @@ git log –oneline : versiyon değişikliklerini kısa özet olarak gösterir.
 ### `rm dosyaadı.uzantısı:` (Dosya silme)yazarsak o klasör içindeki dosyayı silmiş oluruz.
 ### `rm –r klasöradı`  : (Klasör silme) Klasör silmek için o klasör dizinin içinde olmamız gerekir.Yoksa o klasörü silemeyiz.
 
-### Git Dersleri – 6 – Commit & Log
+### Git Dersleri & Commit & Log
 1-	git init : cd ile proje dosyasına  gelip, git init yaparakgit projesi haline getirip, proje dosyalarını yükleriz.
 2-	git add . add eklemek anlamında . nokta ise şuanki bulunduğumuz dizin demek  bu kod çalıştığı zaman git tüm dosyaları deposuna ekler.Fakat bu komut tek başına yeterli değildir. Aslında bu dosyalar şu anda git deposunda değil, git geçiş deposundadır.
 3-	git commit –m “ilk commit” : Geçiş deposundan, git deposuna eklemek  için bu komut kulanılır.
-## NOT: Eğer geçiş bölgesindeki bir dosyanın içinde değişiklik yaptıysak tekrar
-O dosyayı git add dosya.txt  yani dosya adı ve uzantısını yazarak tekrar
-geçiş bölgesine göndermeliyiz.
+NOT: Eğer geçiş bölgesindeki bir dosyanın içinde değişiklik yaptıysak tekrar
+O dosyayı git add dosya.txt  yani dosya adı ve uzantısını yazarak tekrar geçiş bölgesine göndermeliyiz.
 
 ### GİT STATUS
  git status: Projenizde herhangi değişiklik olup olmadığını gösterir .Eğer Herhangi bir değişiklik yok ise 
@@ -53,7 +52,7 @@ Eğer var ise kırmızı renkte dosyanın adını gösterir.
 ### `git add dosyaismi.html:  Yazıp direk dosya eklebiliriz. (git add . şeklinde yazsaydık tüm dosyaları ekleyecekti. Daha önce yaptığımız için böyle birşeye ihtiyaç yok.)
  4-	git commit –m “ikinci dosya eklendi.” : Geçiş deposundan, git deposuna eklemek  için bu komut kulanılır. Git Dersleri – 8 – Git İş Akışı 
 
-## Git Dersleri – 9 – Diff & Değişiklikler
+## Git Dersleri & Diff  Değişiklikler
  git status : Dediğimizde ; Aşağıdaki örnekte dosyanın içinde bir değişiklik olduğunu söylüyor. Modified lesson-4.html Olarak hangi dosyada değişiklik yapılmışsa onu belirtiyor.
 ### `Git diff : `Dosyanın içindeki değişiklikleri satır satır  listeler.
 ### `git add .  :`Diyerek git’in geçiş deposuna gönderiyoruz.
