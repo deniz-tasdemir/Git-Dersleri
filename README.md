@@ -18,6 +18,12 @@ Versiyon kontrol sistemi, kod temeline yapılan değişikliklerin izini sürmeye
 
 ### `git config –global user.email ` “email adresinizi yazıyoruz”  mail adresimizi tanımlıyoruz. Bu şekilde ayarları bitirmiş oluyoruz.
 
+### İPUCU
+
+Git'in komutları ve bu komutların seçenek ve parametreleri ile ilgili yardım almak istediğinizde aşağıdaki komutları kullanabilirsiniz.
+git [komut adı] --help (örneğin: git init --help)
+git help [komut adı] (örneğin: git help init)
+komutlarını kullanabilirsiniz. 
 
 ### TERMİNAL KOMUTLARI
 ### `pwd: `Terminal üzerinde bulunduğumuz  tam adresini verir.
@@ -48,10 +54,11 @@ O dosyayı git add dosya.txt  yani dosya adı ve uzantısını yazarak tekrar ge
 nothing to commit yani kayıt edilecek herhangi bir şey yok demek.
 Eğer var ise kırmızı renkte dosyanın adını gösterir.
 ### `git add dosyaismi.html:` Yazıp direk dosya eklebiliriz. (git add . şeklinde yazsaydık tüm dosyaları ekleyecekti. Daha önce yaptığımız için böyle birşeye ihtiyaç yok.)
- 4-	git commit –m “ikinci dosya eklendi.” : Geçiş deposundan, git deposuna eklemek  için bu komut kulanılır. Git Dersleri – 8 – Git İş Akışı 
+### `git commit –m “ikinci dosya eklendi.” :` Geçiş deposundan, git deposuna eklemek  için bu komut kulanılır. 
 
+### GİT AKIŞI 
 ## Git Dersleri & Diff  Değişiklikler
- ### `git status :` Dediğimizde ; Aşağıdaki örnekte dosyanın içinde bir değişiklik olduğunu söylüyor. Modified lesson-4.html Olarak hangi dosyada değişiklik yapılmışsa onu belirtiyor.
+ ### `git status :` Dediğimizde ; Dosyanın içinde  herhangi bir değişiklik olup olmadığını söyler.
 ### `Git diff : `Dosyanın içindeki değişiklikleri satır satır  listeler.
 ### `git add .  :`Diyerek git’in geçiş deposuna gönderiyoruz.
 ### `git commit –m “ekleme yapıldı” :`Geçiş deposundan, git deposuna eklemek  için  bu komut kullanılır.
