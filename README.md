@@ -82,10 +82,9 @@ Eğer var ise kırmızı renkte dosyanın adını gösterir.
 ### `git checkout master :` dediğimizde master branch ine gitmiş oluruz. sadece o klasörün içinde master branch ine ait dosyalar gözükür. dal-1 branch içindeki dosyalarımız gözükmez.
 ### Hızlı Branch oluşturulma:
 ### `git checkout –b dal-2 :` dediğimizde hem branch oluşturmuş hemde dal-2 branch e gitmiş oluyoruz.
-### ` Örnek :` Aşağıdaki örnekte hem dal-2 adında branch oluşturduk hemde dal-2 branch ine geçi yapmış olduk.
 
 ### Branch silme :
-### `git branch –d dal-1 :` dal 1 isimli dosyayı silmek istediğimizi söyledik fakat aşağıdaki hatayı aldık.Branchler birleştirilmediği için aşağıdaki hatayı aldık. Böyle durumlarda git branch –D dal-1 yazıyoruz. Yani küçük d yerine büyük D kullanıyoruz.
+### `git branch –d dal-1 :` dal 1 isimli dosyayı silmek istediğimizi söyledik fakat hata aldık diyelim.Branchler birleştirilmediği için  hata aldıyorsak . Böyle durumlarda git branch –D dal-1 yazıyoruz. Yani küçük d yerine büyük D kullanıyoruz.
 
  
 
