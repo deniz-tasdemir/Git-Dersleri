@@ -1,4 +1,16 @@
 # Github-Egitimi-Git-Dersleri
+
+### GIT’in Hikayesi
+Linus Torvalds, 2002 yılında, kernel’i geliştirirken BitKeeper adlı revizyon kontrol sistemini kullanıyor. 2005 yılında Linux kernel geliştirici topluluğu ile BitKeeper arasında bir sıkıntı oluyor. BitKeeper’ın ücretsiz kullanım lisansı iptal oluyor ve Linus’un sigorta bu noktada atıyor.
+
+İzlediğim Git Under the Hood eğitiminde Jeffrey Haemer, Linus’un GIT’i geliştirmeye bir pazartesi başlayıp, çarşamba gününden itibaren GIT’i GIT ile versiyonlamaya başladığını söyledi. Bu kadar hızlı geliştirmesinin sebebi olarak da zaten çok iyi bildiği kernel’i kopyalaması olduğunu söyledi.
+
+Hatta Ken Thompson’ın da Unix’i tam 1 ayda yazdığını, Linus’un da Unix’i örnek aldığını söyledi...
+
+Sonuç Olarak...
+Neticede GIT aslında bir veritabanıdır. Tanımlandığı dizin altında çalışan, ilgili bilgilerini, ayarlarını ve benzeri bilgilerini .git/ dizini altında tutan, o dizindeki tüm dosyaların (eğer izole edilmemişse) versiyonlarını yani dosyalardaki değişikliklerin tarihçesini, bu kendi şahsına özel veritabanı mekanizması içinde saklar.
+
+
 ## GİT NOTLARIM
 
  ### GİT PROJESİ OLUŞTURMA
