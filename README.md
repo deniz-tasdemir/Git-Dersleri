@@ -22,8 +22,8 @@ Versiyon kontrol sistemi, kod temeline yapılan değişikliklerin izini sürmeye
 
 Git'in komutları ve bu komutların seçenek ve parametreleri ile ilgili yardım almak istediğinizde aşağıdaki komutları kullanabilirsiniz.
 ## git [komut adı] --help (örneğin: git init --help)
-## git help [komut adı] (örneğin: git help init)
-komutlarını kullanabilirsiniz. 
+## git help [komut adı] (örneğin: git help init) komutlarını kullanabilirsiniz. 
+
 
 ### TERMİNAL KOMUTLARI
 ### `pwd: `Terminal üzerinde bulunduğumuz  tam adresini verir.
